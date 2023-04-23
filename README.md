@@ -51,4 +51,4 @@ Octawack is open source software released under the [Carbon License](LICENSE).
 
 - [Vite](https://vitejs.dev/) for providing a fast build tool and development server.
 - [PWABuilder Studio](https://www.pwabuilder.com/) For helping making this a PWA
-- **YOU** for useing Octawack
+- **YOU** for using Octawack
