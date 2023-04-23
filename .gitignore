@@ -1,0 +1,13 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+.firebase
+
+/node_modules/
+
+*.sw?
+
+/dist/
+
+deploy.js
