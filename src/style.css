@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2family=Raleway:wght@600&display=swap');
 
 .flexCenter {
   display: flex;
@@ -12,14 +12,14 @@ body {
   height: 100vh;
   font-family: 'Raleway', sans-serif;
   color: white;
-  background-color: #40c9a2;
+  background-image: linear-gradient(to bottom right, #40C9A2, #00A07C, #007958, #005436, #003117);
   margin: 0;
   padding: 0;
 }
 
 div {
-  height: 50vh;
-  border: 5px solid white;
+  height: 65vh;
+  border: 4.20px solid white;
   border-radius: 100%;
   aspect-ratio: 1/1;
   padding: 15px;
@@ -54,4 +54,11 @@ a {
   font-size: 1.2em;
   text-decoration: none;
   color: white;
+}
+
+u {
+  color: #ABACFF;
+  text-decoration: none;
+  font-family: monospace;
+  font-size: 1.29em;
 }

@@ -10,7 +10,7 @@ button.onclick = () => {
 }
 
 h1.addEventListener('click', () => {
-  navigator.clipboard.writeText(copyText).then(() => {
+  navigator.clipboard.writeText(h1.textContent).then(() => {
     alert(`"${h1.textContent}" is copied to your clipboard`)
   }, (err) => {
     alert(err)
