@@ -11,14 +11,14 @@ function transformString(inputStr) {
       throw new Error("The input string must have at least 8 characters.");
   }
 
-  const first = inputStr[8];
-  const second = inputStr[1];
-  const third = inputStr[7];
-  const fourth = inputStr[6];
-  const fifth = inputStr[2];
-  const sixth = inputStr[5];
-  const seventh = inputStr[3];
-  const eighth = inputStr[4];
+  const first = inputStr[7];
+  const second = inputStr[0];
+  const third = inputStr[6];
+  const fourth = inputStr[5];
+  const fifth = inputStr[1];
+  const sixth = inputStr[4];
+  const seventh = inputStr[2];
+  const eighth = inputStr[3];
 
   return eighth + seventh + sixth + fifth + fourth + third + second + first;
 }
