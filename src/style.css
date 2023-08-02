@@ -1,4 +1,14 @@
-@import url('https://fonts.googleapis.com/css2family=Raleway:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
+body {
+  width: 100vw;
+  height: 100vh;
+  font-family: 'Patrick Hand', cursive;
+  color: black;
+  background-color: white;
+  margin: 0;
+  padding: 0;
+}
 
 .flexCenter {
   display: flex;
@@ -7,45 +17,23 @@
   flex-direction: column;
 }
 
-body {
-  width: 100vw;
-  height: 100vh;
-  font-family: 'Raleway', sans-serif;
-  color: white;
-  background-image: linear-gradient(to bottom right, #40C9A2, #00A07C, #007958, #005436, #003117);
-  margin: 0;
-  padding: 0;
-}
-
-div {
-  height: 65vh;
-  border: 4.20px solid white;
-  border-radius: 100%;
-  aspect-ratio: 1/1;
-  padding: 15px;
-}
-
 h1 {
-  font-size: 2.5em;
-}
-
-h1:hover {
-  text-shadow: 1px 1px #e5f9e0;
+  font-size: 3em;
+  margin: 0.5em;
 }
 
 button {
   border: 0;
-  border-radius: 8px;
-  padding: 0.7em 1.4em;
-  font-size: 1.2em;
-  font-weight: 500;
-  background-color: white;
+  border-radius: 10px;
+  padding: 0.5em 1.2em;
+  font-size: 1.5em;
+  background-color: black;
   cursor: pointer;
-  color: black;
+  color: white;
 }
 
 button:hover {
-  border-color: #646cff;
+  opacity: 0.7; /* Solubility of oxygen */
 }
 
 a {
@@ -53,12 +41,5 @@ a {
   bottom: 5px;
   font-size: 1.2em;
   text-decoration: none;
-  color: white;
-}
-
-u {
-  color: #ABACFF;
-  text-decoration: none;
-  font-family: monospace;
-  font-size: 1.29em;
+  color: rgb(28, 28, 255);
 }
