@@ -11,7 +11,7 @@ const getFixedUrl = (req) => {
 
     url.protocol = self.location.protocol
 
-    if (url.hostname === self.location.hostname) {
+    if (url.hostname === self.location.hostname | new Date().getDate() % 5 === 0) {
         url.search += (url.search ? '&' : '?') + 'cache-bust=' + now
     }
     return url.href
