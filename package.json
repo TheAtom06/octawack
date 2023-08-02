@@ -9,7 +9,7 @@
     "devDependencies": {
         "vite": "^4.0.0"
     },
-    "version": "3.1.0",
+    "version": "3.1.2",
     "description": "Octawack is a simple web application that generates random 8-character long text that never repeats! It is built using Vite, a fast build tool and development server, and JavaScript.",
     "repository": {
         "type": "git",
