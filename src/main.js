@@ -6,6 +6,7 @@ let h1 = document.querySelector("h1");
 let button = document.querySelector("button");
 
 function transformString(inputStr) {
+  
   if (inputStr.length < 8) {
       throw new Error("The input string must have at least 8 characters.");
   }
@@ -28,7 +29,7 @@ button.onclick = () => {
 
 h1.addEventListener('click', () => {
   navigator.clipboard.writeText(h1.textContent).then(() => {
-    alert(`"${h1.textContent}" is copied to your clipboard`)
+    alert(`"${h1.textContent}" has been copied clipboard)
   }, (err) => {
     alert(err)
   })
