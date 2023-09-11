@@ -33,7 +33,8 @@ button {
 }
 
 button:hover {
-  opacity: 0.7; /* Solubility of oxygen */
+  opacity: 0.7;
+  /* Solubility of oxygen */
 }
 
 a {
@@ -41,5 +42,16 @@ a {
   bottom: 5px;
   font-size: 1.2em;
   text-decoration: none;
-  color: rgb(28, 28, 255);
+  color: black
+}
+
+u {
+  color: rgb(255, 41, 41)
+}
+
+img {
+  width: 30vw;
+  -webkit-box-shadow: 35px 35px 0px 3px rgba(0, 0, 0, 0.9);
+  -moz-box-shadow: 35px 35px 0px 3px rgba(0, 0, 0, 0.9);
+  box-shadow: 35px 35px 0px 3px rgba(0, 0, 0, 0.9);
 }
