@@ -8,7 +8,7 @@ Octawack is a simple web application that generates random 8-character long text
 - Minimalistic user interface with a single "Generate" button.
 - Allows copying generated text to clipboard.
 - Supports service worker for offline functionality.
-- Made with love by [atom06](https://github.com/theatom06).
+- Made with love by [Gandalf](https://github.com/u5106).
 
 ## Getting Started
 

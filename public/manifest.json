@@ -1,5 +1,5 @@
 {
-  "name": "OctaWack - TheAtom06",
+  "name": "OctaWack - Gandalf",
   "short_name": "Octawack",
   "start_url": "/",
   "display": "standalone",
@@ -21,14 +21,6 @@
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any"
-    }
-  ],
-  "screenshots": [
-    {
-      "src": "https://www.pwabuilder.com/assets/screenshots/screen1.png",
-      "sizes": "2880x1800",
-      "type": "image/png",
-      "description": "A screenshot of the home page"
     }
   ]
 }
